@@ -1,0 +1,57 @@
+h1 {
+  font-size: xx-large;
+  text-transform: capitalize;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 2rem auto 0 auto;
+  padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+  border: solid black;
+}
+
+.avatar {
+  width: 10rem;
+  border: 2px black;
+  border-style: solid;
+  border-radius: 50%;
+}
+
+.divider {
+  border-top: solid gray 2px;
+  margin: 2rem 0 2rem 0;
+}
+
+/* Header / Self Description */
+
+header {
+  gap: 1rem;
+  display: grid;
+  place-items: center;
+}
+
+header .biodata-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+header .biodata-container table.detail {
+  height: fit-content;
+}
+
+/* Friends Biodata */
+
+section.friends-biodata {
+  display: grid;
+  place-items: center;
+}
+
+section.friends-biodata .biodata-list {
+  display: grid;
+  /* grid-template-columns: repeat(2, minmax(0, 1fr)); */
+}
+
+section.friends-biodata .biodata-list .biodata-card {
+  /*  */
+}
