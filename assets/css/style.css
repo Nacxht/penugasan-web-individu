@@ -36,7 +36,7 @@ h2 {
   margin: 2rem 0 2rem 0;
 }
 
-/* Header / Self Description */
+/* Header / Biodata Diri */
 
 header.self-biodata {
   gap: 1rem;
@@ -54,7 +54,7 @@ header.self-biodata .biodata-container table.detail {
   height: fit-content;
 }
 
-/* Friends Biodata */
+/* Biodata Teman */
 
 section.friends-biodata {
   display: grid;
