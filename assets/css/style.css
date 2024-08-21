@@ -21,6 +21,7 @@ h2 {
   margin: 2rem auto 0 auto;
   padding: 1.5rem 1.5rem 1.5rem 1.5rem;
   border: solid black;
+  border-radius: 0.5rem;
 }
 
 .avatar {
@@ -37,19 +38,19 @@ h2 {
 
 /* Header / Self Description */
 
-header {
+header.self-biodata {
   gap: 1rem;
   display: grid;
   place-items: center;
 }
 
-header .biodata-container {
+header.self-biodata .biodata-container {
   display: flex;
   align-items: center;
   gap: 1rem;
 }
 
-header .biodata-container table.detail {
+header.self-biodata .biodata-container table.detail {
   height: fit-content;
 }
 
@@ -75,9 +76,13 @@ section.friends-biodata .biodata-list .biodata-card {
   border-radius: 0.5rem;
   padding: 1.5rem;
   min-width: 20rem;
-  text-align: center;
 }
 
 section.friends-biodata .biodata-list .biodata-card h2 {
   margin: 0.5rem 0 0.5rem 0;
+}
+
+section.friends-biodata .biodata-list .biodata-card .img-container {
+  text-align: center;
+  margin: 0 0 1rem 0;
 }
