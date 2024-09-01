@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+header.self-biodata .img-table img {
+    width: 15rem;
+    height: 15rem;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+header.self-biodata .img-table {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+header.self-biodata .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+header.self-biodata .img-table table {
+    height: fit-content;
+}
+
+header.self-biodata .img-table td {
+    padding: 0 0.5rem 0 0.5rem;
+}
+
+section.self-description p {
+    text-align: justify;
+}
