@@ -30,7 +30,7 @@ async function friendsBiodata() {
 
             <table>
                 <tr>
-                    <td>Nama Lengkap</td>
+                    <td>Nama</td>
                     <td>:</td>
                     <td>${i.nama}</td>
                 </tr>
