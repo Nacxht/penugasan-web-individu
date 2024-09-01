@@ -19,6 +19,7 @@ section.friends-biodata .biodata-list .biodata {
     grid-template-columns: repeat(1, minmax(0, 1fr));
     place-items: center;
     height: 100%;
+    width: 100%;
 }
 
 section.friends-biodata .biodata-list .biodata img {
