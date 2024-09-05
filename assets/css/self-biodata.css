@@ -1,38 +1,52 @@
-body {
-    display: flex;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
+/* Self Biodata */
+
+header.self-biodata {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  place-items: center;
+  gap: 2rem;
 }
 
-header.self-biodata .img-table img {
-    width: 15rem;
-    height: 15rem;
-    border: 2px solid black;
-    border-radius: 50%;
+header.self-biodata .biodata {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  place-items: center;
+  gap: 1rem;
 }
 
-header.self-biodata .img-table {
-    display: flex;
-    align-items: center;
-    gap: 1.5rem;
-    justify-content: center;
+header.self-biodata .biodata img {
+  width: 10rem;
+  border: solid 2px black;
+  border-radius: 50%;
 }
 
-header.self-biodata .button-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 2rem;
+header.self-biodata .biodata table {
+  height: fit-content;
 }
 
-header.self-biodata .img-table table {
-    height: fit-content;
+header.self-biodata .biodata td {
+  padding-right: 0.5rem;
 }
 
-header.self-biodata .img-table td {
-    padding: 0 0.5rem 0 0.5rem;
+/* Self Description */
+
+section.self-description {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 1rem;
 }
 
 section.self-description p {
-    text-align: justify;
+  text-align: justify;
+}
+
+/* Responsive */
+
+@media screen and (min-width: 1024px) {
+  header.self-biodata .biodata {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+  }
 }
