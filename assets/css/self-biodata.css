@@ -16,6 +16,7 @@ header.self-biodata .biodata {
 
 header.self-biodata .biodata img {
   width: 10rem;
+  height: 10rem;
   border: solid 2px black;
   border-radius: 50%;
 }
@@ -38,6 +39,10 @@ section.self-description {
 
 section.self-description p {
   text-align: justify;
+}
+
+header.self-biodata .btn {
+  text-align: center;
 }
 
 /* Responsive */
